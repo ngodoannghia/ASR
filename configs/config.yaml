@@ -1,0 +1,19 @@
+# Configuration for the project
+
+data:
+  raw_data_path: "data/raw/"
+  processed_data_path: "data/processed/"
+
+training:
+  batch_size: 32
+  epochs: 50
+  learning_rate: 1e-4
+  model_checkpoint_path: "models/checkpoints/"
+
+wandb:
+  project_name: "speech_to_text"
+  entity: "telio"
+
+model:
+  pretrained_model_name: "facebook/wav2vec2-base-960h"
+  checkpoint_path: null # path to checkpoint

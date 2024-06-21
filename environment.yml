@@ -1,0 +1,16 @@
+name: speech_to_text
+dependencies:
+  - python=3.9.0
+  - pip
+  - pip:
+    - wandb
+    - jiwer
+    - torch
+    - torchaudio
+    - torchvision 
+    - transformers
+    - librosa
+    - soundfile
+    - hydra-core
+    - datasets
+    - numpy=1.26.4

@@ -1,0 +1,11 @@
+wandb
+jiwer
+torch
+torchaudio
+torchvision 
+transformers
+librosa
+soundfile
+hydra-core
+datasets
+numpy=1.26.4
